@@ -33,17 +33,22 @@ img{
     padding: 10px;
 }
 .polo{
+    background-color: rgb(19, 15, 1);
     
-    border-radius: 10px;
+    width: 130px;
     padding: 10px;
+    color: aliceblue;
+    text-align: center;
 }
 .tol{
     display: flex;
+    background-color: rgb(98, 92, 92);
+    background-size: 35%;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 50px;
 }
 .lolo{
     border-radius: 5px;
     padding: 10px;
-}
-.tol{
-    background-color: gray;
 }
