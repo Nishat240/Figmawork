@@ -7,81 +7,87 @@
 *{
     font-family: "Poppins", sans-serif;
 }
+.jilo{
+    width: 500px;
+    height: 156px;
+}
+.jo{
+    display: flex;
+    gap: 25px;
+    color: rgb(167 164 171);
+    background: none;
+    border: none;
+    align-items: center;
+    
+}
 .ko img{
-    width: 100px;
-    height: 100px;
+    width: 215px;
+    height: 215px;
     border-radius: 50%;
     border: 5px solid yellow;
 
 }
-
+.olo{
+    width: 618px;
+    height: 80px;
+}
 .circle{
     display: flex;
     gap: 20px;
-}
-.circle:hover{
-    border: 3px solid rgb(102, 185, 240);
-     padding: 20px;
-
+    width: 627px;
+    height: 215px;
 }
 .now{
     display: flex;
-    align-items: center;
-    gap: 20px;
-    color: gray;
-}
-.now:hover{
-    border: 3px solid rgb(102, 185, 240);
-    padding: 20px;
-
-}
-.lol{
     text-align: center;
+    column-gap: 60px;
+    color: #A7A4AB;
+    width: 500px;
+    height: 142px;
+    
 }
 .dil{
     display: flex;
     gap: 20px;
 }
-.dil:hover{
-    border: 3px solid rgb(102, 185, 240);
-     padding: 20px;
-}
 .kil{
-    background-color: rgb(255, 248, 106);
+    background-color: #FFD76D;
     border-radius: 5px;
-    padding: 5px;
+    width: 130px;
+    padding: 10px;
+    border: none;
     
 }
 .li{
-    background-color: gray;
+    background-color: #171F26;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
+    width: 130px;
+    height: 38px;
+    color: #A7A4AB;
+    border: none;
 }
 .polo{
     background-color: rgb(19, 15, 1);
     border-radius: 5px;
-    width: 130px;
+    width: 349px;
+    height: 60px;
     padding: 10px;
     color: rgb(246, 249, 252);
-    text-align: center;
+    border: none;
 }
 .tol{
     display: flex;
-    width: 300px;
-    background-color: rgb(98, 92, 92);
+    width: 756px;
+    height: 80px;
+    background-color: #201e25;
     background-size: 35%;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
     gap: 50px;
+    text-align: center;
    
     
-}
-.tol:hover{
-    border: 3px solid rgb(102, 185, 240);
-    cursor: pointer;
-    width: 300px;
-    padding: 20px;
-
 }
 .pl{
     border-radius: 10px;
@@ -92,16 +98,13 @@
     gap: 30px;
     grid-template-columns: auto auto;
     justify-items: center;
-}
-.Pic:hover{
-    border: 3px solid rgb(102, 185, 240);
-    padding: 20px;
-}    
+    flex-wrap: wrap;
+}   
 body{
     background-color: rgba(19, 19, 19, 0.993);
-    justify-items: center;
     top: 200px;
     padding: 10px;
+    justify-items: center;
 }
 h2{
     color: aliceblue;
