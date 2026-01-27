@@ -1,135 +1,117 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    color: #ffffff;
 }
-.jilo{
-    width: 500px;
-    height: 156px;
-}
-.jo{
+body{
     display: flex;
-    gap: 25px;
-    color: rgb(167 164 171);
-    background: none;
-    border: none;
-    align-items: center;
-    
-}
-.ko img{
-    width: 215px;
-    height: 215px;
-    border-radius: 50%;
-    border: 5px solid yellow;
-
-}
-.olo{
-    width: 618px;
-    height: 80px;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+    background: #000000;
 }
 .circle{
     display: flex;
-    gap: 20px;
-    width: 627px;
+    align-items: center;
+    gap: 40px;
+}
+.ko{
     height: 215px;
+    width: 215px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #FFE071;
+}
+.ko .inner-circle{
+    position: absolute;
+    border: 5px solid #ffffff;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.ko img{
+    width: 270px;
+    height: auto;
+}
+.circle .jilo{}
+
+.circle .jilo h2{
+    font-size: 46px;
+    color: #ffffff;
+}
+.circle .jilo p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #A3ABB2;
+}
+
+.circle .jilo .jo{
+    color: #A3ABB2;
+    font-size: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 26px;
+}
+.circle .jilo .jo i{
+    cursor: pointer;
+}
+.circle .jilo .jo i:hover{
+    color: #ffffff;
 }
 .now{
     display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    gap: 55px;
     text-align: center;
-    column-gap: 60px;
-    color: #A7A4AB;
-    width: 500px;
-    height: 142px;
-    
 }
-.dil{
-    display: flex;
+.olo{
+    display:flex;
+    margin-top: 30px;
     gap: 20px;
+    color: none;
 }
 .kil{
-    background-color: #FFD76D;
-    border-radius: 5px;
-    width: 130px;
-    padding: 10px;
+    background: none;
     border: none;
-    
+    color: #453B3B;
+    background-color: #FFE071;
+    border-radius: 8px;
+    width: 300px;
+    height: 80px;
 }
 .li{
-    background-color: #171F26;
-    border-radius: 5px;
-    padding: 5px;
-    width: 130px;
-    height: 38px;
-    color: #A7A4AB;
+    color:#A7A4AB;
+    background: none;
     border: none;
-}
-.polo{
-    background-color: rgb(19, 15, 1);
-    border-radius: 5px;
-    width: 349px;
-    height: 60px;
-    padding: 10px;
-    color: rgb(246, 249, 252);
-    border: none;
+    border-radius: 8px;
+    background-color: #201E25;
+    width: 290px;
+    height: 80px;
 }
 .tol{
-    display: flex;
+    margin-top: 25px;
     width: 756px;
-    height: 80px;
-    background-color: #201e25;
-    background-size: 35%;
+    height: 132px;
+}
+.tol.polo{
+    background-color: #000000;
     border-radius: 5px;
-    padding: 8px;
-    gap: 50px;
-    text-align: center;
-   
-    
-}
-.pl{
-    border-radius: 10px;
-    padding: 5px;
-}
-.Pic{
-    display: grid;
-    gap: 30px;
-    grid-template-columns: auto auto;
-    justify-items: center;
-    flex-wrap: wrap;
-}   
-body{
-    background-color: rgba(19, 19, 19, 0.993);
-    top: 200px;
-    padding: 10px;
-    justify-items: center;
-}
-h2{
-    color: aliceblue;
-}
-p{
-    color: gray;
-    font-size: small;
-    
-}
-footer{
-    color: gray;
-}
-.fa-facebook-square{
-    color: aliceblue;
-}
-.fa-github{
-    color: aliceblue;
-}
-.fa-linkedin-square{
-    color: aliceblue;
-}
-.fa-youtube-square{
-    color: rgb(248, 244, 244);
-}
-.solo{
-    display: flex;
-    gap: 10px;
+    color: #A7A4AB;
+    background: none;
 }
