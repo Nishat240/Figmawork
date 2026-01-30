@@ -111,7 +111,7 @@ body{
     gap: 30%;
     align-items: center;
     background-color: #201E25; 
-    width: 700px ;
+    width: 741px ;
     height: 90px;
     row-gap: 15px;
     border-radius: 15px;
@@ -136,6 +136,7 @@ body{
 .Pic{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 32px;
-    column-gap: 40px;
+    row-gap: 42px;
+    column-gap: 30px;
+    justify-content: center;
 }
