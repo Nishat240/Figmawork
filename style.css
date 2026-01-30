@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
+    align-items: center;
 }
 body{
     display: flex;
@@ -105,13 +106,36 @@ body{
     height: 80px;
 }
 .tol{
+    display: flex;
     margin-top: 25px;
-    width: 756px;
-    height: 132px;
+    gap: 30%;
+    align-items: center;
+    background-color: #201E25; 
+    width: 700px ;
+    height: 90px;
+    row-gap: 15px;
+    border-radius: 15px;
+    justify-items: center;
+
 }
-.tol.polo{
-    background-color: #000000;
-    border-radius: 5px;
-    color: #A7A4AB;
+.tol .polo{
     background: none;
+    border: none;
+    border-radius: 5px;
+    width: 249px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-left: 18px;
+    
+}
+.tol .jo{
+    background: none;
+    border: none;
+}
+.Pic{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 40px;
 }
