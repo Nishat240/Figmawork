@@ -234,15 +234,3 @@ footer{
     margin: 80px 0;
     text-align: center;
 }
-
-@media screen and (max-width: 450px) {
-    .profile-details{
-        grid-template-columns: auto;
-        justify-content: center;
-    }
-    .portfolio-container{
-        .item-list{
-            grid-template-columns: auto;
-        }
-    }
-}
