@@ -423,6 +423,11 @@ footer{
     }
 }       
 }
+footer{
+    margin: 80px 0;
+    text-align: center;
+    color: #90989F;
+}
   
 }                            
                                           
