@@ -138,6 +138,7 @@ body{
     button{
         padding: 24px 42px;
         border-radius: 10px;
+        border: none;
         font-size: 22px;
         display: flex;
         align-items: center;
@@ -240,147 +241,137 @@ footer{
         align-items: center;
         background-color: #0C151D;
     }
-    .theme-change-icon{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 33px;
-    padding: 20px;
-
-    .icon{
-        width: 48px;
-        height: 48px;
-        background: var(--color-dark-1);
+    .theme-change-icon{    
         display: flex;
-        align-items: center;
         justify-content: center;
-        border-radius: 100%;
-        svg{
-            width: 24px;
-            height: 24px;
-            path {
-                fill: var(--color-light-5);
+        width: 100%;
+
+        .icon{
+            width: 48px;
+            height: 48px;
+            background: var(--color-dark-1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            svg{
+                width: 24px;
+                height: 24px;
+                path {
+                    fill: var(--color-light-5);
+                }
             }
         }
-    }
-
+    
 }
     .profile-details{
 
-                margin-top: 30px;
-                justify-items: center;
-                justify-content: center;
-                align-items: center;
-                width: auto;
-                display: grid;
-                grid-template-columns:  auto;
-                gap: 40px;
-                
+        margin-top: 30px;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        display: grid;
+        grid-template-columns:  auto;
+        gap: 40px;
 
-            .profile-image {
-                display: flex;
-                width: 107px;
-                height: 107px;
-                align-items: center;
-                justify-content: center;
-                overflow: hidden;
-                background: var(--color-accent-1);
-                border-radius: 100%;
-                position: relative;
+        .profile-image {
+            display: flex;
+            width: 107px;
+            height: 107px;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: var(--color-accent-1);
+            border-radius: 100%;
+            position: relative;
             img {
                 height: 116px;
                 
-            }
         }
-            .details{
-    
-                align-items: center;
-                justify-items: center;
-                width: 100%;
+        }
+        .details{
+            align-items: center;
+            justify-items: center;
+            width: 100%;
                 
-            h2{
-                font-size: 32px;
-                color: #f1f2f4;
-            }
-            p{
-                font-size: 14px;
-                color: #90989F;
-             }
-            .social-links{
-                font-size: 20px;
-                margin-top: 10px;
-                display: flex;
-                align-items: center;
-                color: #A3ABB2;
-                gap: 26px;
-                    i{
-                        cursor: pointer;
-                
-                     }  
-                }
-            } 
-      } 
-      .profile-facts{
+        h2{
+            font-size: 32px;
+            color: #f1f2f4;
+        }
+        p{
+            font-size: 14px;
+            color: #90989F;
+        }
+        .social-links{
+            font-size: 20px;
+            margin-top: 10px;
             display: flex;
-            width: 450px;
-            height: 106px;
-            
+            align-items: center;
+            color: #A3ABB2;
+            gap: 26px;
+                i{
+                    cursor: pointer;
+                }  
+            }
+        } 
+    } 
+    .profile-facts{
+        display: flex;
+        align-items: center;
+        justify-content: center;        
         .fact-item {
             margin-top: 30px;
             display: grid;
             grid-template-columns: auto auto auto;
             font-size: 14px;
             gap: 20px;
-            
-            
-        .fact{
-            text-align: center;
-            color: #99A1A9;
-        }
-        
-    }
-        
+            .fact{
+                text-align: center;
+                color: #99A1A9;
+            }
+        }       
     }
     .profile-buttons{
-    margin-top: 47px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 38px;
-    button{
-        padding: 18px 44px;
-        border: none;
-        border-radius: 10px;
-        font-size: 12px;
+        margin-top: 30px;
         display: flex;
         align-items: center;
-        gap: 15px;
-        cursor: pointer;
-        &:hover{
+        justify-content: center;
+        gap: 38px;
+        button{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-radius: 10px;
+            padding: 18px 44px;
+            border: none;
+            font-size: 12px;
+            cursor: pointer;
             background-color: #FFE071;
-            border-color: var(--color-accent-2);
+            &:hover{
+                background-color: #FFE071;
+                border-color: var(--color-accent-2);
+            }
+
         }
-    }
-    .contact-btn{
-        background-color: #171F26;
-        color: #A3ABB2;
-    }
+        .contact-btn{
+            background-color: #171F26;
+            color: #A3ABB2;
+        }
+            
 }
 .tabs-buttons{
-    margin-top: 86px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
     div{
         display: flex;
         align-items: center;
         gap: 60px;
-        width: 90%;
-        height: 80%;
-        padding: 12px;
-        background-color: #171F26;
         border-radius: 8px;
+        padding: 12px 23px;
+        background-color: #171F26;
         .active{
             padding: 12px 80px;
             border:none;
@@ -406,26 +397,22 @@ footer{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-top: 65px;
+    margin-top: 30px;
+    width: 100%;
     .item-list {
         display: grid;
         grid-template-columns: 375px;
         gap: 32px;
         .portfolio-item {
-            position: relative;
-            cursor: pointer;
             border-radius: 15px;
             overflow: hidden;
+            cursor: pointer;
             img {
                 width: 100%;
                 height: 100%;
             }
             .container{
                 display: none;
-                position: absolute;
-                top: 0;
-                z-index: 1;
-                height: 100%;
                 text-align: center;
                 background: #FBD14491;
                 padding: 0 40px;
@@ -441,7 +428,7 @@ footer{
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    justify-content: center;
+                    justify-content: center
                 }
             }
         }
@@ -453,6 +440,5 @@ footer{
     text-align: center;
     color: #90989F;
 }
-  
-}                            
+                             
                                           
